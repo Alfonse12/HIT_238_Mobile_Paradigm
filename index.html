@@ -1,11 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html>
-<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Quiz App</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+</head>
+
 <body>
- <p> From my index page</p>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
 
+	<h1> Your Quiz </h1>
+	
+	
+	<div id="page">
+		<div id="header" class="header">
+			<ul>
+				<li class="current">
+					<a href="index.html">Restart</a>
+					<ul>
+						<li>
+							<a href="#" id="pause" onclick="menu(0)">Pause</a>
+						</li>
+						<li>
+							<a href="#" id="save" onclick="menu(0)">Save</a>
+						</li>
+						<li>
+							<a href="#" id="exit" onclick="menu(1)">Exit</a>
+						</li>
+					</ul>
+				</li>
+				<li class="current1">
+					<a href="#">Beginner</a>
+					<ul>
+						<li>
+							<a href="#" id="level11" onclick="initializer(11)">Less Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level12" onclick="initializer(12)">Mid Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level13" onclick="initializer(13)">Max Questions</a>
+						</li>
+					</ul>
+				</li>
+				<li class="current2">
+					<a href="#">Normal</a>
+					<ul>
+						<li>
+							<a href="#" id="level21" onclick="initializer(21)">Less Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level22" onclick="initializer(22)">Mid Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level23" onclick="initializer(23)">Max Questions</a>
+						</li>
+					</ul>
+				</li>
+				<li class="current3">
+					<a href="#">Genius</a>
+					<ul>
+						<li>
+							<a href="#" id="level31" onclick="initializer(31)">Less Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level32" onclick="initializer(32)">Mid Questions</a>
+						</li>
+						<li>
+							<a href="#" id="level33" onclick="initializer(33)">Max Questions</a>
+						</li>
+					</ul>
+				</li>
+				
+				<li class="current4">
+				
+					<a href="#">Settings</a>
+					<ul>
+						<li>
+							<a href="#" id="level41" onclick="personalize(1)">Color</a>
+						</li>
+						<li>
+							<a href="#" id="level42" onclick="personalize(1)">Sounds</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				<li class="current5">
+					<a href="#" id="about" onclick="about()">About us</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="body">
+			<div class="header2">
+			
+					
+					<div class="starter no_bord" id="starter" ></div>
+				
+				<div class="main" ></div>
+					
+						<div class="referee hidden">
+							<p id="chronograph">Choose from the top menu to start playing</p>
+							<p id="score">0000</p>
+						</div>
+						<div class="questions hidden" id="qcontent">
+							<p id="question"></p>
+							<hr>
+							<p id="tip"></p>
 
+						</div>
+						<div class="assertion hidden">
+							<input type="button" class="button" value="A" onclick="check('a')">
+							<input type="button" class="button" value="B" onclick="check('b')">
+							<input type="button" class="button" value="C" onclick="check('c')">
+							<input type="button" class="button" value="D" onclick="check('d')">
+							<p id="notice"></p>
+						</div>
+					
+				</div>
+			</div>
+			
+			
+		<div id="footer">
+			<div>
+				<div class="report">
+					<h2>Previous Question</h2>
+					<p id="endreport">Past Question</p>
+				</div>
+				
+				<div>
+					<h2>Connect</h2>
+					<a href="http://www.gmail.com/" target="_blank" id="mail">Email us</a>
+					<a href="http://www.facebook.com/" target="_blank" id="facebook">Facebook</a>
+					<a href="http://www.twitter.com/" target="_blank" id="twitter">Twitter</a>
+					<a href="http://www.googleplus.com/" target="_blank" id="googleplus">Google&#43;</a>
+				</div>
+			</div>
+			
+			<p>
+				A Mugisho &copy; 2018  | All Rights Reserved
+			</p>
+		</div>
+	</div>
+	
+   <script src="js/javascript.js"></script>
 </body>
 </html>

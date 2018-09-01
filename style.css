@@ -1,0 +1,204 @@
+﻿h1, body{
+	text-align:center;
+}
+
+
+@media screen and (max-width : 760px){
+
+    .current, .current1, .current2, .current3, .current4, .current5{
+		background-color:#000;
+		
+	}
+	
+	.header > ul {
+		width:100%;
+		background:#000;
+		
+		
+	
+	}
+	.referee{
+		clear:both;
+		font-size:1.2em;
+		padding-top:220px;
+		
+		
+	}
+	.header > ul > li > a {
+		color: #fff;
+		display: block;
+		letter-spacing: 0.1em;
+		line-height: 49px;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+
+
+@media screen and (min-width : 760px){
+
+    .current, .current1, .current2, .current3, .current4, .current5{
+		background-color:#000;
+		
+	}
+	
+	.header > ul {
+		width:100%;
+		background:#000;
+	
+	}
+}
+
+
+.header > ul {
+	background: #fff;
+	height: 49px;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.button{
+	
+	text-transform: uppercase;
+	text-shadow: 10px 10px 400px rgba(0,0,0,0.8);
+	box-shadow: 10px 10px 40px rgba(0,0,0,0.6);
+	margin:10px;
+	border-radius: 10px;
+	z-index: 999;
+	cursor:pointer;
+    border-color: #CCCCCC #CCCCCC #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    color: #555555;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 8px;
+    text-decoration: none;
+    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;
+	overflow: visible;
+}
+
+.questions{
+	padding:20px;
+	color:#000;
+	background-color:white;
+	min-width:140px;
+	border-collapse: separate;
+	border-style:double;
+	text-align:left;
+	letter-spacing: 2px;
+	border-radius:10px;
+	z-index: 777;
+	clear: both;
+	vertical-align: middle;
+	opacity:1;
+	top: 20px;
+	text-align:center;
+}
+
+.header > ul > li {
+	float:left;
+	position: relative;
+	width:150px;
+}
+
+.header > ul > li > a {
+	color: #fff;
+	display: block;
+	letter-spacing: 0.1em;
+	line-height: 49px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.header {
+	background: #ffffff;
+	height: 80px;
+}
+
+
+.header ul li a:hover {
+	background: #daead0;
+	color: #000;
+}
+
+.header ul li ul {
+	list-style: none;
+	left: -99999px;
+	margin: 0;
+	overflow: visible;
+	padding: 11px 0 0;
+	position: absolute;
+	top: 49px;
+	width: 150px;
+	z-index: 2;
+}
+
+
+.header ul li:hover ul {
+	left: 0;
+	top: 38px;
+}
+
+.header ul li ul li {
+	background: #000;
+}
+
+.header ul li ul li a {
+	color: #fff;
+	display: block;
+	line-height: 31px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (min-width : 760px){
+
+    
+
+    
+    
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
